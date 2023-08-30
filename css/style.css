@@ -1,0 +1,152 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{background-color: #f3ebe4;}
+    
+    .main{/* background-color: blue; */width: 36%;position: relative;left: 28rem;top: 11rem;height: 22rem; display: flex; /* margin: auto; */}
+    
+    .pic{/* background-color: brown; */width: 50%;height: 100%;}
+    
+    .pic img{background-color: yellow;width: 100%;height: 100%;border-radius: 1rem 0rem 0rem 1rem;}
+    
+    .details{background-color:  hsl(0, 0%, 100%);width: 50%;height: 100%;border-radius: 0rem 1rem 1rem 0rem;padding-left: 1rem;/* padding-bottom: 0rem; *//* padding-top: 0px; */}
+    
+    .details h6{
+        letter-spacing: 0.2rem;
+        padding-top: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        }
+    
+    .details h1{
+        /* font-family: 'Montserrat', sans-serif; */
+        font-weight: 700;
+        padding-top: .6rem;
+        font-size: 1.8rem;
+        width: 12rem;
+        line-height: 1.6rem;
+        padding-bottom: .6rem;
+}
+    
+    .details p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding-top: 7px;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+}
+    
+    .rate{/* background-color: rgb(19, 245, 98); *//* padding: 1rem 0rem; */font-size: 2.3rem;display: flex;justify-content: start;align-items: center;padding-top: 1.2rem;padding-bottom: 1.2rem;}
+    
+    #cr{font-family: 'Fraunces', serif;}
+    
+    #pr{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%);
+        padding-left: 1rem;
+}
+    
+#lg{
+    /* color: aquamarine; */
+    
+    background-color: #2018d300;
+    position: absolute;
+    left: 322px;
+    bottom: 39px;
+}
+
+input{
+    /* position: relative; */
+    font-size: 15px;
+    padding: 10px 77px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+input:hover{background-color: hsl(212, 21%, 14%) }
+
+    
+
+
+        
+@media (min-width:374px) and (max-width:378px) {*{margin: 0;
+    padding: 0;}
+    
+    body{background-color: #f3ebe4;}
+    
+    .main{/* background-color: blue; */width: 92%;position: relative;left: 0rem;top: 1.3rem;height: 21rem;/* display: none; */flex-wrap: wrap;margin: auto;}
+    
+    .pic{/* background-color: brown; */width: 100%;height: 100%;}
+    
+    .pic img{background-color: yellow;width: 100%;height: 100%;border-radius: 1rem 1rem 0rem 0rem;}
+    
+    .details{background-color:  hsl(0, 0%, 100%);width: 96%;/* height: 100%; */border-radius: 0rem 0rem 1rem 1rem;/* padding-left: 1.8rem; *//* padding-bottom: 0rem; *//* padding-top: 0px; *//* margin: auto; */}
+    
+    .details h6{
+        letter-spacing: 0.2rem;
+        padding-top: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: hsl(228, 12%, 48%);
+        }
+    
+    .details h1{
+        font-weight: 900;
+        font-family: 'Fraunces', serif;
+        padding-top: .6rem;
+        font-size: 2rem;
+        width: 17rem;
+        line-height: 2.3rem;
+        text-shadow: 0px 0px 1px;
+        padding-bottom: .6rem;
+}
+    
+    .details p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding-top: 7px;
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+}
+    
+    .rate{/* background-color: rgb(19, 245, 98); *//* padding: 1rem 0rem; */font-size: 2.3rem;display: flex;justify-content: start;align-items: center;padding-top: .5rem;padding-bottom: .8rem;}
+    
+    #cr{font-family: 'Fraunces', serif;FONT-WEIGHT: 700;color: hsl(158, 36%, 37%);}
+    
+    #pr{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%);
+        padding-left: 1rem;
+}
+    
+#lg{
+    /* color: aquamarine; */
+    background-color: #2018d300;
+    position: absolute;
+    left: 107px;
+    bottom: -290px;
+}
+
+input{
+    /* position: relative; */
+    font-size: 15px;
+    padding: 10px 112px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+input:hover{background-color: hsl(212, 21%, 14%) }
+
+    
+
+    
+}
